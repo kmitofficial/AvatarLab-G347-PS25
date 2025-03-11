@@ -20,6 +20,10 @@ Applications :
   Accessibility: Assistive communication for speech-impaired users.
   
   News Reading: AI-generated news anchors delivering real-time updates.
+
+ ![Screenshot 2025-03-11 152823](https://github.com/user-attachments/assets/6f25fda6-1c31-46a9-b49b-3ba6d6d56e9d)
+
+
   
 Workflow Steps :
 
@@ -32,5 +36,8 @@ Workflow Steps :
   Video Generation: A final video is rendered with synchronized lip movements.
 
   Output: The AI-generated talking head video is delivered.
+
+  ![Screenshot 2025-03-11 150534](https://github.com/user-attachments/assets/82e85d5a-e4d9-4021-8190-d0c46a24300e)
+
   
 
