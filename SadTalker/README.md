@@ -1,64 +1,85 @@
 <div align="center">
-    <h1>🎭 AI Avatar Lab</h1>
+  <h1>🎭 AI Avatar Lab</h1>
 </div>
 
+---
+
 ## 📌 Introduction
-### Purpose of the Project
+
+### 🎯 Purpose of the Project  
 AI Avatar Lab is designed to create a highly realistic, AI-driven speaking avatar that synchronizes lip movements with generated speech. The project leverages advanced deep learning techniques to achieve seamless text-to-speech (TTS) conversion and realistic facial animations.
 
-### Applications of the Project
-- **Virtual Assistants** – AI-powered avatars for customer support, education, and interactive chatbots.
-- **Content Creation** – Enhancing video production with AI-driven avatars.
-- **Language Learning** – Improving pronunciation with real-time lip-sync.
-- **Gaming & VR** – Integrating lifelike AI characters for immersive experiences.
+### 🌐 Applications
+- 💬 **Virtual Assistants** – AI-powered avatars for customer support, education, and interactive bots.  
+- 🎥 **Content Creation** – Enhance videos with AI-driven talking avatars.  
+- 📚 **Language Learning** – Improve pronunciation through real-time lip-sync visualization.  
+- 🎮 **Gaming & VR** – Integrate lifelike AI characters into immersive environments.
 
 ---
 
 ## 📌 Architecture Diagram
-![downloads](https://github.com/user-attachments/assets/740bdae8-3c9c-4f82-ae67-45855694ef3e)
 
-### Step-by-Step Explanation  
+![Architecture Diagram](https://github.com/user-attachments/assets/740bdae8-3c9c-4f82-ae67-45855694ef3e)
 
-1. **User Interaction** – The user uploads text, speech, or an image via the **React.js frontend**.  
-2. **API Communication** – The frontend communicates with the backend using a **REST API** built with **FastAPI and Flask**.  
-3. **AI Processing:**  
-   - **Text-to-Speech (TTS) Conversion** – The input text is converted into speech using **VITS**.  
-   - **Talking Avatar Generation** – The **DiffTalk** model creates an animated avatar based on the speech and image.  
-4. **Post-Processing Layer:**  
-   - **Audio-Video Synchronization** – Aligns the generated speech with the avatar’s lip movements.  
-   - **Rendering Engine** – Uses **FFmpeg & a Custom Renderer** to finalize the video.  
-5. **Storage & Deployment:**  
-   - **AWS S3** stores generated videos and audio files.  
-   - **CDN (Cloudflare / AWS CloudFront)** ensures fast content delivery.  
-   - **WebSockets** provide real-time updates to the frontend.  
-6. **User Output** – The **React.js frontend** displays the final talking avatar video for the user to view, download, or share.  
+### 🛠️ Step-by-Step Breakdown
+1. **User Input** – Image, text, or speech uploaded via **Streamlit frontend**.  
+2. **Backend Processing** – Managed by **Python backend scripts** handling inference and processing.  
+3. **AI Engine**:
+   - **TTS**: Text converted to speech using **VITS**.  
+   - **Avatar Generation**: Animated avatar created via **SadTalker**.
+4. **Post-Processing**:
+   - **Audio-Video Sync** – Align speech and facial movement.  
+   - **Rendering** – Handled via **FFmpeg** and custom tools.
+5. **Deployment**:
+   - **AWS S3** – For file storage.  
+   - **CDN** – (Cloudflare / AWS CloudFront) for fast delivery.  
+   - **WebSockets** – For real-time frontend updates.
+6. **Final Output** – Talking avatar video shown on **Streamlit frontend**.
 
 ---
 
 ## 📌 Workflow Diagram
-![download (1)](https://github.com/user-attachments/assets/be942b30-020b-42bf-ba22-a0cdb17b2d6e)
 
-### Step-by-Step Explanation
-1. **User Input** – The user provides a text input.
-2. **Text-to-Speech (TTS) Conversion** – The input text is converted into speech using **VITS TTS**.
-3. **Lip-Sync Animation Generation (Highlighted Section):**
-   - **Process Speech Audio** – The generated speech is analyzed.
-   - **Generate Lip Movements** – AI maps speech phonemes to facial movements.
-   - **AI-Driven Avatar Animation** – The lip movements are applied to the avatar using **DiffTalk, Wav2Lip, and Face Mesh**.
-4. **Avatar Rendering** – The animated avatar is rendered using **Three.js and DeepFaceLive**.
-5. **Final Output** – The user sees and hears the AI-powered speaking avatar.
+![Workflow Diagram](https://github.com/user-attachments/assets/be942b30-020b-42bf-ba22-a0cdb17b2d6e)
+
+### ⚙️ Workflow Details
+1. **Text Input** – User enters or uploads text via **Streamlit UI**.
+2. **TTS Conversion** – Converted to audio using **VITS TTS**.
+3. **Lip Sync Animation**:
+   - Analyze speech.  
+   - Generate facial movements.  
+   - Apply using **SadTalker**, **Wav2Lip**, and **Face Mesh**.
+4. **Rendering** – Using **Three.js** and **DeepFaceLive**.
+5. **Final Video Output** – Displayed with synchronized audio-visual output on **Streamlit frontend**.
 
 ---
 
-## 📌 Brief Explanation of the Reference Research Papers
-### Wav2Lip: Accurate Lip-Sync for Any Voice and Video
-- This paper presents an advanced lip-sync model that achieves precise synchronization by training a GAN-based architecture.
-- The technique improves upon existing methods by reducing lip-sync errors, making it ideal for AI avatars.
+## 📌 Research Paper References
 
-### DiffTalk: Diffusion Models for Talking Head Generation
-- DiffTalk leverages diffusion models for realistic facial animation, outperforming traditional GAN-based methods.
-- It enables fine-grained control over facial movements, enhancing expressiveness in AI avatars.
+### 🔊 Wav2Lip: Accurate Lip-Sync for Any Voice and Video
+- GAN-based model ensuring precise lip-syncing.
+- Ideal for multi-voice avatar generation.
 
-### FastSpeech 2: Fast and High-Quality End-to-End Text-to-Speech
-- This paper introduces an improved TTS model that enhances speech clarity and expressiveness.
-- It ensures real-time speech synthesis, making it suitable for interactive AI avatars.
+### 🎥 SadTalker: AI Talking Head Generation
+- Uses diffusion models for highly expressive and natural animations.
+- Superior to traditional GANs in realism and control.
+
+### 🗣️ FastSpeech 2: Fast and High-Quality End-to-End TTS
+- Fast, expressive TTS synthesis.
+- Suitable for real-time applications like avatars and assistants.
+
+---
+
+## 👥 Contributors
+
+| S.No | Name                | GitHub ID                                                | Milestone 1 Video | Milestone 2 Video                  | PPT Link  |
+|------|---------------------|-----------------------------------------------------------|-------------------|------------------------------------|-----------|
+| 1    | Raghav Cheruvu      | [@username1](https://github.com/username1)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+| 2    | B. Akshaya Reddy    | [@username2](https://github.com/username2)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+| 3    | Y. Akshaya Reddy    | [@Akshayareddy12022006](https://github.com/Akshayareddy12022006) | [bit.ly/4kCCdTn](https://bit.ly/4kCCdTn) | [YouTube](https://youtu.be/8DS62FEVblk) | [PPT](#)  |
+| 4    | A. Jahnavi Reddy    | [@username4](https://github.com/username4)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+| 5    | A. Sri Vyshnavi     | [@username5](https://github.com/username5)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+| 6    | M. Rajashekar Reddy | [@username6](https://github.com/username6)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+| 7    | M. Shiva Reddy      | [@username7](https://github.com/username7)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+
+---
