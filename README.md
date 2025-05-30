@@ -57,29 +57,29 @@ AI Avatar Lab is designed to create a highly realistic, AI-driven speaking avata
 ## 📌 Research Paper References
 
 ### 🔊 Wav2Lip: Accurate Lip-Sync for Any Voice and Video
-- GAN-based model ensuring precise lip-syncing.
+- GAN-based model ensuring precise lip-syncing.  
 - Ideal for multi-voice avatar generation.
 
 ### 🎥 SadTalker: AI Talking Head Generation
-- Uses diffusion models for highly expressive and natural animations.
+- Uses diffusion models for highly expressive and natural animations.  
 - Superior to traditional GANs in realism and control.
 
 ### 🗣️ FastSpeech 2: Fast and High-Quality End-to-End TTS
-- Fast, expressive TTS synthesis.
+- Fast, expressive TTS synthesis.  
 - Suitable for real-time applications like avatars and assistants.
 
 ---
 
 ## 👥 Contributors
 
-| S.No | Name                | GitHub ID                                                | Milestone 1 Video | Milestone 2 Video                  | PPT Link  |
-|------|---------------------|-----------------------------------------------------------|-------------------|------------------------------------|-----------|
-| 1    | Raghav Cheruvu      | [@username1](https://github.com/username1)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
-| 2    | B. Akshaya Reddy    | [Akshayareddy-7](https://github.com/Akshayareddy-7)      |[Milestone1](https://tinyurl.com/43jyyu9j) | [Youtube](https://youtu.be/0lBfgdzwwnU) | [PPT](#)  |
-| 3    | Y. Akshaya Reddy    | [@Akshayareddy12022006](https://github.com/Akshayareddy12022006) | [bit.ly/4kCCdTn](https://bit.ly/4kCCdTn) | [YouTube](https://youtu.be/8DS62FEVblk) | [PPT](#)  |
-| 4    | A. Jahnavi Reddy    | [@username4](https://github.com/username4)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
-| 5    | A. Sri Vyshnavi     | [@username5](https://github.com/username5)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
-| 6    | M. Rajashekar Reddy | [@username6](https://github.com/username6)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
-| 7    | M. Shiva Reddy      | [@username7](https://github.com/username7)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+| S.No | Name                | GitHub ID                                                                                     | Milestone 1 Video           | Milestone 2 Video                            | PPT 1        | PPT 2        |
+|------|---------------------|-----------------------------------------------------------------------------------------------|-----------------------------|----------------------------------------------|--------------|--------------|
+| 1    | Raghav Cheruvu      | [@raghavch1911](https://github.com/raghavch1911)                                             | [Video 1](https://youtu.be/NBfcODVRpes?si=Sb6BrEx2b-UkV3Cz)                | [Video 2](https://youtu.be/V2o8VxsxSL0)                                  | [PPT 1](#)   | [PPT 2](#)   |
+| 2    | B. Akshaya Reddy    | [@Akshayareddy-7](https://github.com/Akshayareddy-7)                                         | [Video 1](#)                | [Video 2](#)                                  | [PPT 1](#)   | [PPT 2](#)   |
+| 3    | Y. Akshaya Reddy    | [@Akshayareddy12022006](https://github.com/Akshayareddy12022006)                            | [video 1](https://bit.ly/4kCCdTn) | [video 2](https://youtu.be/8DS62FEVblk)     | [PPT 1](https://tinyurl.com/2s38a6cp)   | [PPT 2](https://tinyurl.com/5eewbykz)   |
+| 4    | A. Jahnavi Reddy    | [@JahnaviAlluri-git](https://github.com/JahnaviAlluri-git)                                  | [Video 1](https://youtu.be/NBfcODVRpes?si=Sb6BrEx2b-UkV3Cz)                | [Video 2](https://youtu.be/NBfcODVRpes?si=Sb6BrEx2b-UkV3Cz)                                  | [PPT 1](https://tinyurl.com/mrhpvm4n)   | [PPT 2](https://tinyurl.com/48vuccjd)   |
+| 5    | A. Sri Vyshnavi     | [@srivyshnavi18](https://github.com/srivyshnavi18)                                           | [Video 1](https://drive.google.com/file/d/1TJqkSZnwWkSJm5UwH62pNnkrC1Qo7DTC/view)                | [Video 2](https://youtu.be/WrH_oX_7Qjk)                                  | [PPT 1](https://tinyurl.com/3rf4vace)   | [PPT 2](#)   |
+| 6    | M. Rajashekar Reddy | [@RajashekarReddy7](https://github.com/RajashekarReddy7)                                     | [Video 1](#)                | [Video 2](https://youtu.be/5eZr6V_0EnA)                                  | [PPT 1](#)   | [PPT 2](#)   |
+| 7    | M. Shiva Reddy      | [@shivareddy6351](https://github.com/shivareddy6351)                                         | [Video 1](https://drive.google.com/file/d/1jlMa6BEIK9NwiZVb8jTwqUbVUHIy-mLN/view?usp=drive_link)                | [Video 2](#)                                  | [PPT 1](#)   | [PPT 2](#)   |
 
 ---
