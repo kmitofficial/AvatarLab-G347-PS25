@@ -75,7 +75,7 @@ AI Avatar Lab is designed to create a highly realistic, AI-driven speaking avata
 | S.No | Name                | GitHub ID                                                | Milestone 1 Video | Milestone 2 Video                  | PPT Link  |
 |------|---------------------|-----------------------------------------------------------|-------------------|------------------------------------|-----------|
 | 1    | Raghav Cheruvu      | [@username1](https://github.com/username1)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
-| 2    | B. Akshaya Reddy    | [@username2](https://github.com/username2)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
+| 2    | B. Akshaya Reddy    | [Akshayareddy-7](https://github.com/Akshayareddy-7)      |[Milestone1](https://tinyurl.com/43jyyu9j) | [Youtube](https://youtu.be/0lBfgdzwwnU) | [PPT](#)  |
 | 3    | Y. Akshaya Reddy    | [@Akshayareddy12022006](https://github.com/Akshayareddy12022006) | [bit.ly/4kCCdTn](https://bit.ly/4kCCdTn) | [YouTube](https://youtu.be/8DS62FEVblk) | [PPT](#)  |
 | 4    | A. Jahnavi Reddy    | [@username4](https://github.com/username4)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
 | 5    | A. Sri Vyshnavi     | [@username5](https://github.com/username5)               | [Video 1](#)      | [Video 2](#)                        | [PPT](#)  |
