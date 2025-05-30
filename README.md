@@ -19,7 +19,7 @@ AI Avatar Lab is designed to create a highly realistic, AI-driven speaking avata
 
 ## 📌 Architecture Diagram
 
-![Architecture Diagram](https://github.com/user-attachments/assets/740bdae8-3c9c-4f82-ae67-45855694ef3e)
+![Architecture Diagram](https://github.com/user-attachments/assets/9ce3fc87-5423-421b-8db5-f2076ba146eb)
 
 ### 🛠️ Step-by-Step Breakdown
 1. **User Input** – Image, text, or speech uploaded via **Streamlit frontend**.  
